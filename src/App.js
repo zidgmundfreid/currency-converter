@@ -25,8 +25,8 @@ function App() {
   }, []);
 
 
-  const actualRates1 = Object.keys(rates).filter(el => el == "UAH" )
-  const actualRates2 = Object.keys(rates).filter(el => el == "USD" || el == "EUR"  )
+  const actualRates1 = Object.keys(rates).filter(el => el === "UAH" )
+  const actualRates2 = Object.keys(rates).filter(el => el === "USD" || el === "EUR"  )
   
 
   function format (number) {

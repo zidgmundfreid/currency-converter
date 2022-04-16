@@ -8,8 +8,8 @@ const Header = (props) => {
 
   return (
     <div>
-        <div className="currency-block"><h3>UAH - USD</h3><h3>{uahToUsd}</h3></div>
-        <div className="currency-block"><h3>UAH - EUR</h3><h3>{uahToEur}</h3></div>
+        <div className="currency-block"><h3>UAH - USD</h3><h3>{uahToUsd.toFixed(2)}</h3></div>
+        <div className="currency-block"><h3>UAH - EUR</h3><h3>{uahToEur.toFixed(2)}</h3></div>
 
     </div>
   );

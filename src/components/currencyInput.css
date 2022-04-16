@@ -3,8 +3,9 @@
     width: 180px;
     margin: 0 auto 20px;
     display: grid;
-    grid-template-columns: 100px 80px;
+    grid-template-columns: 80px 90px;
     border-radius: 15px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
 }
 input,select{
     background: none;
@@ -28,5 +29,6 @@ option {
     border-radius: 15px;
     width: 1320px;
     border-radius: 50px;
+    
 }
 

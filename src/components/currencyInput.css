@@ -1,0 +1,32 @@
+.group{
+    background: #1e90ff;
+    width: 180px;
+    margin: 0 auto 20px;
+    display: grid;
+    grid-template-columns: 100px 80px;
+    border-radius: 15px;
+}
+input,select{
+    background: none;
+    border:0;
+    color:#fff;
+    outline:none;
+}
+input{
+    padding-left: 10px;
+}
+select{
+    padding: 15px;
+}
+
+option {
+    background-color: #161616;
+    text-align: center;
+    margin: 0 auto 20px;
+    display: grid;
+    grid-template-columns: 100px 80px;
+    border-radius: 15px;
+    width: 1320px;
+    border-radius: 50px;
+}
+
